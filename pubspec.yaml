@@ -1,0 +1,74 @@
+name: flutter_github_repo_finder
+description: A Flutter app to search and display top GitHub repositories with offline support
+
+# Prevent publishing to pub.dev
+publish_to: 'none'
+
+# App version
+version: 1.0.0+1
+
+# SDK version constraints
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+  # State Management - Riverpod
+  flutter_riverpod: ^2.4.10
+  
+  # HTTP & API
+  http: ^1.2.0
+  
+  # Local Storage - Hive
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Shared Preferences
+  shared_preferences: ^2.2.2
+  
+  # Network Connectivity Check
+  connectivity_plus: ^5.0.2
+  
+  # Image Caching
+  cached_network_image: ^3.3.1
+  
+  # Date & Time Formatting
+  intl: ^0.19.0
+  
+  # URL Launcher (Open in Browser)
+  url_launcher: ^6.2.4
+
+# Dev Dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting
+  flutter_lints: ^3.0.1
+  
+  # Code Generation for Hive
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+
+# Flutter configuration
+flutter:
+  uses-material-design: true
+
+  # Add assets if needed (currently none)
+  # assets:
+  #   - images/
+  #   - assets/
+
+  # Add custom fonts if needed (currently none)
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
